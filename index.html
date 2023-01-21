@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/8b985dae8f.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/cropped-logo.png" class="logo">
+                <ul>
+                    <li><a href="">Home</a></li>
+                    <li><a href="">About</a></li>
+                    <li><a href="">Services</a></li>
+                    <li><a href="">Portfolio</a></li>
+                    <li><a href="">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="header-text">
+                <p>
+                    upcoming developer
+                </p>
+                <h1>
+                    Hey I'm <span>Thomas</span> <br>Kamau from Kenya
+                </h1>
+            </div>
+        </div>
+    </div>
+
+    <!-- about -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/user.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About me</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio asperiores quis cupiditate veniam
+                        soluta praesentium, obcaecati maxime non illo saepe tempora quam dolorem, quaerat ipsum facere
+                        enim porro. Molestias, ipsum!
+                    </p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('Skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('Education')">Education</p>
+                        <p class="tab-links" onclick="opentab('Experience')">Experience</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="Skills">
+                        <ul>
+                            <li><span>UI/UX</span><br>web developer</li>
+                            <li><span>app development </span><br>android app developer</li>
+                            <li><span>web development</span><br>web apps development</li>
+
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Education">
+                        <ul>
+                            <li><span>2004-2015</span><br>Primary school</li>
+                            <li><span>2015-2019</span><br>Secondary school</li>
+                            <li><span>2020-current</span><br>Diploma</li>
+
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Experience">
+                        <ul>
+                            <li><span>3 months </span><br>seniors development ltd</li>
+                            <li><span>2 months </span><br>bug bounty companies</li>
+                            <li><span>current</span><br>linux affairs security</li>
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- -----------services------------ -->
+    <div class="services">
+        <div class="container">
+            <h1 class="sub-title">My services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web design</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus beatae blanditiis laborum nam,
+                        suscipit, quisquam cum, repellat incidunt soluta repudiandae facilis eum porro enim officia
+                        ipsum reprehenderit. Nesciunt, molestiae praesentium.
+                    </p>
+                    <a href="">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-sharp fa-solid fa-marker"></i>
+                    <h2>UI/UX design</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus beatae blanditiis laborum nam,
+                        suscipit, quisquam cum, repellat incidunt soluta repudiandae facilis eum porro enim officia
+                        ipsum reprehenderit. Nesciunt, molestiae praesentium.
+                    </p>
+                    <a href="">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-cc-apple-pay"></i>
+                    <h2>App design</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus beatae blanditiis laborum nam,
+                        suscipit, quisquam cum, repellat incidunt soluta repudiandae facilis eum porro enim officia
+                        ipsum reprehenderit. Nesciunt, molestiae praesentium.
+                    </p>
+                    <a href="">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ------------portfolio-------------- -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/work1.jpg">
+                    <div class="layer">
+                        <h3>Social media app</h3>
+                        <p>This app makes communication easier by connecting users to
+                            other parts of the world
+                        </p>
+                        <a href=""><i class="fa-solid fa-download"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work2.jpg">
+                    <div class="layer">
+                        <h3>Online shopping app</h3>
+                        <p>This app simplifies your shopping needs to the desires of your heart
+                        </p>
+                        <a href=""><i class="fa-solid fa-cart-shopping-fast"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work3.jpg">
+                    <div class="layer">
+                        <h3>Jokes app</h3>
+                        <p>This app will help you pass your time and give you rib cracking jokes all day long
+                        </p>
+                        <a href=""><i class="fa-solid fa-face-grin-squint-tears"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See more</a>
+        </div>
+    </div>
+
+    <!-- ----------------------contact------------- -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">contact me</h1>
+                    <p><i class="fa-solid fa-paper-plane-top"></i> ghaflabinvu@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i> 071299300423</p>
+                    <div class="social-icons">
+                        <a href="https://twitter.com/MsomiMapesa"><i class="fa-brands fa-twitter"></i></a>
+                        <a href=""><i class="fa-brands fa-instagram"></i></a>
+                        <a href=""><i class="fa-brands fa-facebook"></i></a>
+                    </div>
+                    <button class="btn2">Download cv</button>
+                </div>
+                <div class="contact-right">
+                    <form>
+                        <input type="text" name="Name" placeholder="Your name" required>
+                        <input type="email" name="email" placeholder="Your email" required>
+                        <textarea name="message" rows="6" placeholder="your message"></textarea>
+                        <button type="submit" class="btn2 btn">submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <script>
+        var tablinks = document.getElementsByClassName('tab-links')
+        var tabcontents = document.getElementsByClassName('tab-contents')
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link")
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab")
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+
+</body>
+
+</html>
